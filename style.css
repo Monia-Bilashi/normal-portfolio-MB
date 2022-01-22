@@ -1,0 +1,123 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    height: 650px;
+    width: 100%;
+}
+
+.h-m-bar {
+    height: 10%;
+    /* background-color: lightslategray; */
+    display: flex;
+    padding: 10px;
+}
+
+.h-m-bar-i {
+    height: 100%;
+    float: left;
+    width: 10%;
+}
+
+.h-m-bar-i img {
+    height: 100%;
+    width: 100%;
+}
+
+.h-m-bar-d {
+    width: 90%;
+}
+
+.h-m-bar-d-n {
+    float: right;
+    margin: 12px;
+}
+
+.h-m-bar-d-n a {
+    width: 100%;
+    padding: 5px 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-right: 3px solid black;
+    color: black;
+    font-family: cursive;
+}
+
+.h-m-bar-d-n a:last-child {
+    border: none;
+}
+
+.h-m-bar-d-n a:hover {
+    background-color: grey;
+    color: darkslateblue;
+    border-radius: 10px;
+}
+
+.h-m-bar-d-n a:hover:last-child {
+    border-right: 3px solid black;
+}
+
+.h-ban {
+    background-color: black;
+    width: 100%;
+    height: 90%;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+}
+
+.h-ban-cont {
+    color: whitesmoke;
+    width: 50%;
+    height: 90%;
+    margin: 0px 62px;
+    margin-top: 100px;
+    font-family: cursive;
+}
+
+.h-ban-cont h2 {
+    font-size: 30px;
+}
+
+.h-ban-cont p {
+    margin: 20px 0px 100px;
+    font-style: italic;
+}
+
+.h-ban-cont p span {
+    font-weight: bolder;
+    color: rgba(228, 31, 235, 0.363);
+}
+
+.h-ban-cont a {
+    text-decoration: none;
+    color: black;
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.h-ban-cont a:hover {
+    background-color: darkgray;
+    color: darkgreen;
+}
+
+.h-ban-i {
+    /* width: 40%; */
+    height: 80%;
+    margin: 55px 0px 55px 250px;
+}
+
+.h-ban-i img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
